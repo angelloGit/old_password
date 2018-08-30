@@ -1,5 +1,5 @@
 DELIMITER ;;
-CREATE DEFINER=`root`@`localhost` FUNCTION `old_pass`(p VARCHAR(255)) RETURNS varchar(16) CHARSET utf8
+CREATE DEFINER=`root`@`localhost` FUNCTION `old_password`(p VARCHAR(255)) RETURNS varchar(16) CHARSET utf8
 BEGIN
     declare nr,nr2,ad,tmp,i INT UNSIGNED;
     declare c char;
